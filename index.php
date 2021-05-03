@@ -14,5 +14,6 @@
     </head>
     <body>
         <h1>Frase censurata: <?php echo $parCens?></h1>
+        <p>Lunghezza frase: <?php echo strlen($parCens) ?></p>
     </body>
 </html>
