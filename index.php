@@ -1,6 +1,6 @@
 <?php 
-    $par = $_GET["paragrafo"];
-    $badword = 'merda';
+    $par = "Una bellissima giornata, se non fosse per questa pioggia di merda";
+    $badword = $_GET["badword"];
     $parCens = str_replace($badword, '***', $par);
 ?>
 
